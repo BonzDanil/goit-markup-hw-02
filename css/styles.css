@@ -5,6 +5,9 @@
 .link {
     text-decoration: none;
 }
+:root{
+
+}
 
 /* HEADER */
 .logo-web {
@@ -12,7 +15,7 @@
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.17;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
@@ -25,7 +28,7 @@
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.17;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
@@ -54,7 +57,10 @@
     letter-spacing: 0.02em;
     color: #404BBF;
 }
-
+/* HEADER ADRESS */
+.adress{
+    font-style: normal
+}
 
 .adress-link {
     font-family: 'Roboto', sans-serif;
@@ -78,16 +84,6 @@
 }
 
 /* First section */
-.h1 {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 60px;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #FFFFFF;
-}
 
 .main-button {
     font-family: 'Roboto', sans-serif;
@@ -110,16 +106,16 @@
     cursor: pointer;
 }
 
-.main-button:hover {
+.main-button:hover, .main-button:focus{
     background-color: #404BBF
 }
 
-.h1 {
+.tags-h {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
@@ -131,7 +127,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
     color: #2E2F42;
@@ -153,15 +149,11 @@
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
-}
-
-.body {
-    background: #FFFFFF;
 }
 
 .first-section {
@@ -187,7 +179,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     display: flex;
     align-items: center;
     text-align: center;
@@ -196,6 +188,12 @@
     flex: none;
     order: 0;
     flex-grow: 0;
+    background-color:#F4F4FD;
+    cursor: pointer;
+}
+.buttons:hover, .buttons:focus{
+    color: #FFFFFF;
+    background-color: #404BBF;
 }
 
 .logo-studio-footer {
@@ -203,10 +201,21 @@
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.17;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #F4F4FD;
+}
+.body{
+    font-family: 'Raleway', sans-serif;
+    color: #434455;
+    background-color:#FFFFFF
+}
+.four-section{
+    background-color: #F4F4FD
+}
+.first-lisst-punkt{
+    background-color: #FFFFFF
 }
