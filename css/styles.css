@@ -208,14 +208,14 @@
     text-transform: uppercase;
     color: #F4F4FD;
 }
-.body{
+body{
     font-family: 'Raleway', sans-serif;
     color: #434455;
-    background-color:#FFFFFF
+    background-color:#FFFFFF;
 }
 .four-section{
-    background-color: #F4F4FD
+    background-color: #F4F4FD;
 }
 .first-lisst-punkt{
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
 }
